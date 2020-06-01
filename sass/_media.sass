@@ -1,0 +1,272 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+    .services .services__inner
+        grid-template-columns: repeat(2,1fr)
+
+// ≥768px
++media-breakpoint-down(sm)
+    .services .services__inner
+        grid-template-columns: 1fr
+    .header__inner
+        flex-direction: column
+        align-items: center
+    .navigation__list
+        margin-top: 20px
+    .subscription__form-body .form__group
+        flex-direction: column
+    .subscription__form-body .form__group button
+        margin-left: 0
+        margin-top: 15px
+        width: 510px
+    .list__item
+        font-size: 20px
+    .services .services__inner
+        grid-gap: 55px
+    .section__title h2
+        font-size: 30px
+    .section__title
+        padding-top: 132px
+    .faq__section
+        padding-bottom: 132px
+
+    #lessMore
+        position: relative
+
+    .learnMore
+        &::after
+            content: "\f078"
+            font-family: "Font Awesome 5 Free"
+            margin-left: 11.75px
+        &.active
+            &::after
+                content: "\f077"
+
+    .read__more
+        display: block
+        text-align: center
+        margin-top: -85px
+        margin-bottom: 132px
+        span
+            font-family: Open Sans
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 24px
+            text-align: right
+            text-transform: uppercase
+            color: #00CDFA
+
+    .faq__section-content
+        position: relative
+        height: 526px
+        overflow: hidden
+        transition: all .5s ease
+        &.plus__height
+            height: 622px
+        &.allHeight
+            height: 100%
+
+    .list__style li
+        padding-right: 20.5px
+    .list__item
+        span
+            padding-right: 15px
+    .subscription__form
+        margin-top: 56px
+
+    .video
+        margin-top: 100px
+
+    .none_mobile
+        display: none
+
+    .subscription__inner
+       padding-right: 32px
+       padding-left: 32px
+
+    .subscription__inner h1
+        font-size: 28px
+
+    .mobile_img
+        display: block
+
+    .services
+        border-bottom: none
+        padding-bottom: 0
+        padding-top: 90px
+        margin: 0 30px 0 30px
+
+    .service__carousel
+        display: block
+
+    #play
+        top: 35%
+    .video__wrapper
+        height: 212px
+        background-position: center
+    .p-xs
+        padding: 0
+    .logo
+        display: none
+    .logo_mobile
+        display: block
+
+    .navigation
+        display: none
+
+    .join__free-mobile
+        display: inline-block
+        color: $text	
+        text-transform: uppercase
+        font-size: 18px
+        font-weight: 600
+        font-family: SegoeUI
+        width: 150px
+        height: 56px
+        background: #00CDFA
+        text-align: center
+        line-height: 56px
+        margin-left: 16px
+        margin-right: 0
+        text-transform: uppercase
+        color: #ffffff
+
+    .language__switcher
+        margin-left: 45px
+
+    .header__inner
+        margin: 0 31px 0 31px
+        flex-direction: row
+
+    .language__switcher li a
+        font-size: 14px
+    
+    .company__search-inner, .company__page-inner, .company__contact-inner
+        grid-template-columns: 1fr
+    .subscription__form-body .form__group
+        align-items: center
+    .subscription__form-body .form__group input
+        width: 310px
+    .subscription__form-body .form__group button
+        width: 310px
+    .navigation__list li a
+        font-size: 14px
+    .navigation__list li
+        margin-right: 30px
+
+    .desctope_img
+        display: none
+
+    .how__content
+        width: 100%
+        padding-top: 0
+
+    .how__content.second__step
+        margin-left: 0
+    .step__three
+        padding-left: 0
+        padding-top: 96px
+    .step__one
+        padding-left: 0
+        padding-top: 96px
+    .step__two
+        padding-right: 0
+        padding-top: 96px
+        margin-top: 0
+
+    .mobile_img
+        margin: 0 auto
+
+    .services .services__inner
+        display: none
+
+    .notify__form input
+        width: 100%
+
+    .notify__form button
+        width: 100%
+        margin-top: 32px
+
+    .coming__inner
+        padding-left: 20px
+        padding-right: 20px
+        background-image: url(/img/mobile_bg.png)
+        height: 88vh
+        padding-top: 140px
+
+    .notify__form
+        text-align: center
+
+    .coming__inner-content-description
+        display: none
+
+    .coming__inner-form
+	    .form__description
+            display: none
+
+    .form__description.mobile
+        display: block
+        margin-top: 20px
+
+    .coming__inner-content
+        margin-bottom: 56px
+        width: 315px
+
+    .contact__form-inner
+        display: block
+    .contact__form .form-group input
+        width: 312px
+    .contact__form .form-group textarea
+        width: 312px
+    .contact__form button
+        width: 312px
+        margin-top: 53px
+    .form-group
+        margin-bottom: 0
+
+
+// ≥576px
++media-breakpoint-down(xs)
+    .footer .footer__content
+        font-size: 16px
+    .join__free-mobile
+        height: 50px
+        width: 125px
+        line-height: 50px   
+        font-size: 16px 
+    .header__inner
+        margin: 0 17px 0 17px
+    .language__switcher li:first-child::after
+        margin-left: 4px
+        margin-right: 0
+    .list__item
+        font-size: 16px
+
+    
+
+   
+    
+
+    
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

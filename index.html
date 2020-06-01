@@ -24,12 +24,14 @@
 		<header class="header">
 			<div class="header__inner">
 				<div class="logo__section">
-					<a class="logo" href="/"><img src="img/logo.svg" alt="logo"></a>
+                    <a class="logo" href="/"><img src="img/logo.svg" alt="logo"></a>
+                    <a class="logo_mobile" href="/"><img src="img/mobile_logo.svg" alt="logo"></a>
 					<ul class="language__switcher">
 						<li><a class="active" href="#">EN</a></li>
 						<li><a href="#">РУС</a></li>
 					</ul>
-				</div>
+                </div>
+                <a href="#" class="join__free-mobile">Join free</a>
 				<nav class="navigation">
 					<ul class="navigation__list">
 						<li><a href="#">How It Works</a></li>
@@ -38,7 +40,7 @@
 					</ul>
 				</nav>
 			</div>
-		</header>
+        </header>
 
 		<main class="content" id="fullpage">
 
@@ -46,7 +48,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="subscription__inner">
-							<span>Try us free — no credit card required </span>
+							<span><span class="none_mobile">Try us free — </span>no credit card required </span>
 							<h1>High Quality Clients From Israel</h1>
 							<h4>The platform where your outsource or outstaff agency will be noticed</h4>
 						</div>
@@ -66,21 +68,54 @@
 			<section class="video">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-10 offset-md-1">
-							<div class="video__wrapper" style="background-image: url(img/video_bg.jpg);">
-								<a href="https://youtu.be/GV0xBevN8CE" class="glightbox3">
+						<div class="col-md-10 offset-md-1 p-xs">
+							<a href="https://youtu.be/GV0xBevN8CE" class="glightbox3">
+								<div class="video__wrapper" style="background-image: url(img/video_bg.jpg);">
 									<img id="play" src="img/play.svg" alt="play">
-								</a>
-							</div>
-						
-							
+								</div>
+							</a>
 						</div>
-						
 					</div>
 				</div>
 			</section>
 
 			<section class="services">
+				<div class="service__carousel">
+					<div class="service__carousel-inner owl-carousel">
+
+						<div class="services__item">
+							<div class="number">
+								01
+							</div>
+							<div class="services__item-content">
+								<h4>Market place</h4>
+								<p>You will be noticed who actively use outsource & outstaff services</p>
+							</div>
+						</div>
+
+						<div class="services__item">
+							<div class="number">
+								02
+							</div>
+							<div class="services__item-content">
+								<h4>Customer support</h4>
+								<p>We will help you to either publish your company in the right way</p>
+							</div>
+						</div>
+
+						<div class="services__item">
+							<div class="number">
+								03
+							</div>
+							<div class="services__item-content">
+								<h4>Outsource & Outstaff</h4>
+								<p>In-Demand skills like Web-, Game-, App-Development & many more </p>
+							</div>
+						</div>
+						
+
+					</div>
+				</div>
 				<div class="services__inner">
 
 					<div class="services__item">
@@ -94,7 +129,6 @@
 					</div>
 
 					<div class="services__item">
-
 						<div class="number">
 							02
 						</div>
@@ -133,6 +167,64 @@
 					<h2>We will bring you customers</h2>
 				</div>
 
+				<div class="step__one">
+					 <div class="container-fluid">
+						 <div class="row">
+							 <div class="col-lg-7">
+								<img class="img-responsive desctope_img" src="img/company.png" alt="">
+							 </div>
+							<div class="col-lg-5">
+								<div class="how__content">
+									<span>Step 1</span>
+									<h3>Company search</h3>
+									<p>Clients will easily find you by all the matching criterias and filters</p>
+								</div>
+								<img class="img-responsive mobile_img" src="img/company_mobile.png" alt="">
+							</div>
+						 </div>
+					 </div>                       
+				</div>
+
+				<div class="step__two">
+					<div class="container-fluid">
+						<div class="row">
+							
+						   <div class="col-lg-5">
+							   <div class="how__content second__step">
+								   <span>Step 2</span>
+								   <h3>Company page</h3>
+								   <p>Will be translated into hebrew: general info, works, reviews and etc.</p>
+							   </div>
+							   <img class="img-responsive mobile_img" src="img/company_mobile.png" alt="">
+						   </div>
+
+						   	<div class="col-lg-7">
+								<img class="img-responsive desctope_img" src="img/company_page.png" alt="">
+						 	</div>
+						</div>
+					</div>                       
+			   </div>
+
+			   <div class="step__three">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-7">
+						   <img class="img-responsive desctope_img" src="img/company_contacts.png" alt="">
+						</div>
+					   <div class="col-lg-5">
+						   <div class="how__content">
+							   <span>Step 3</span>
+							   <h3>Company contacts</h3>
+							   <p>Clients will be able to contact you through the form and contacts info</p>
+						   </div>
+						   <img class="img-responsive mobile_img" src="img/company_mobile.png" alt="">
+					   </div>
+					</div>
+				</div>                       
+		   </div>
+
+			
+
 				
 
 			</section>
@@ -148,101 +240,110 @@
 						<div class="row">
 
 							<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-
-								<div class="our__platform">
-									<h3 class="our__platform-title">Our platform</h3>
-									<ul class="our__platform-list list__style">
-										<li class="list__button">
-										 	<div class="list__item">When is the launch? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button"> 
-											<div class="list__item">Can I transfer reviews from other platforms? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">What does it mean «CODITT is community platform»? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">Will I be able to contact other agencies? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">What are your advantages over other platforms? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">Will a client contact multiple companies or only us? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">How many companies will you let to sign up at CODITT? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-									</ul>
+								<div class="faq__wrapper">
+									<div class="our__platform">
+										<h3 class="our__platform-title">Our platform</h3>
+										<ul class="our__platform-list list__style">
+											<li class="list__button">
+												 <div class="list__item"> <span>When is the launch?</span>  <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button"> 
+												<div class="list__item"><span> Can I transfer reviews from other platforms?</span>  <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>What does it mean «CODITT is community platform»?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>Will I be able to contact other agencies?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>What are your advantages over other platforms?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>Will a client contact multiple companies or only us?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>How many companies will you let to sign up at CODITT?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+										</ul>
+									</div>
+	
+									<div class="our__platform">
+										<h3 class="our__platform-title">Clients</h3>
+										<ul class="our__platform-list list__style">
+											<li class="list__button">
+												 <div class="list__item"><span>What counts as a start of work with a client?</span><i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button"> 
+												<div class="list__item"><span>Will I be able to get clients for free all the time?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>How will I be able to chat with a client?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>What are the clients’ levels?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>What are clients’ niches?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>Will clients have their own profiles?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+											<li class="list__button">
+												<div class="list__item"><span>If I pay for the client, will I be the only one talking to them?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+										</ul>
+									</div>
+	
+									<div class="our__platform">
+										<h3 class="our__platform-title">Payment</h3>
+										<ul class="our__platform-list list__style">
+	
+											<li class="list__button">
+												 <div class="list__item"><span>What counts as a start of work with a client?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+	
+											<li class="list__button"> 
+												<div class="list__item"><span>Will I be able to get clients for free all the time?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+	
+											<li class="list__button">
+												<div class="list__item"><span>How will I be able to chat with a client?</span> <i class="fas fa-chevron-down"></i></div>	
+												<p class="list__description">The platform will be launched in the beginning of July.</p>
+											</li>
+	
+										</ul>
+									</div>
+									
 								</div>
-
-								<div class="our__platform">
-									<h3 class="our__platform-title">Clients</h3>
-									<ul class="our__platform-list list__style">
-										<li class="list__button">
-										 	<div class="list__item">What counts as a start of work with a client?<i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button"> 
-											<div class="list__item">Will I be able to get clients for free all the time? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">How will I be able to chat with a client? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">What are the clients’ levels? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">What are clients’ niches? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">Will clients have their own profiles? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-										<li class="list__button">
-											<div class="list__item">If I pay for the client, will I be the only one talking to them? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-									</ul>
-								</div>
-
-								<div class="our__platform">
-									<h3 class="our__platform-title">Payment</h3>
-									<ul class="our__platform-list list__style">
-
-										<li class="list__button">
-										 	<div class="list__item">What counts as a start of work with a client?<i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-
-										<li class="list__button"> 
-											<div class="list__item">Will I be able to get clients for free all the time? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-
-										<li class="list__button">
-											<div class="list__item">How will I be able to chat with a client? <i class="fas fa-chevron-down"></i></div>	
-											<p class="list__description">The platform will be launched in the beginning of July.</p>
-										</li>
-
-									</ul>
-								</div>
+								
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</section>
+			<div id="readMore" class="read__more">
+				<span id="lessMore" class="learnMore">see more</span>
+			</div>
+
+			
 
 			<section class="contact">
 				<div class="section__title contact_title">
@@ -251,16 +352,17 @@
 				</div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8 offset-md-2">
+						<div class="col-md-10 offset-md-1">
 							<form class="contact__form">
-								<div class="form-group">
-									<input type="text" placeholder="Name">
-								</div>
-								<div class="form-group">
-									<input type="text" placeholder="Email">
-								</div>
-								<div class="form-group">
-									<textarea placeholder="Message"></textarea>
+								<div class="contact__form-inner">
+									<div class="form-group">
+										<input type="text" placeholder="Name">
+										<input type="text" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<textarea placeholder="Message"></textarea>
+										<div id="charNum"></div>
+									</div>
 								</div>
 								<button type="submit">Contact us</button>
 							</form>
